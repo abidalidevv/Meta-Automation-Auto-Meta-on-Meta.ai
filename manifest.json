@@ -53,7 +53,8 @@
         "*://www.meta.ai/*"
       ],
       "resources": [
-        "assets/index.ts-BdeTBz9V.js"
+        "assets/index.ts-BdeTBz9V.js",
+        "worker-config.js"
       ],
       "use_dynamic_url": false
     }
