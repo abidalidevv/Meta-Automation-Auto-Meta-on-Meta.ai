@@ -36,7 +36,9 @@
   "offline_enabled": true,
   "host_permissions": [
     "*://meta.ai/*",
-    "*://*.meta.ai/*"
+    "*://*.meta.ai/*",
+    "http://127.0.0.1/*",
+    "http://localhost/*"
   ],
   "permissions": [
     "storage",
@@ -44,7 +46,8 @@
     "background",
     "sidePanel",
     "activeTab",
-    "downloads"
+    "downloads",
+    "scripting"
   ],
   "web_accessible_resources": [
     {
@@ -54,7 +57,8 @@
       ],
       "resources": [
         "assets/index.ts-BdeTBz9V.js",
-        "worker-config.js"
+        "worker-config.js",
+        "src/ui/side-panel/bridge-client.js"
       ],
       "use_dynamic_url": false
     }
